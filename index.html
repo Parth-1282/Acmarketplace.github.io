@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ACmarketplace</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <style>
+        body{
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)),
+            url("C:\Users\Akshesh\Desktop\logo.png");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            width: 100%;
+        }
+    </style> -->
+    <style>
+        /* CSS for the logo */
+        .logo {
+            position: absolute;
+        
+            top: 10px;
+            left: 200px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+    <img class="logo" src="new.jpg" alt="Your Logo">
+   
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row align-items-center py-3 px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="col">
+                   <img src="https://i.ibb.co/FKCwb8h/logo-1.png" alt="">
+                </div>      
+                <!-- <a href="index.html" class="text-decoration-none">
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-2 mr-0.5">AC</span>ki Website</h1>
+                </a> -->
+            </div>
+            <div class="col-lg-6 col-6 text-left">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 col-6 text-right">
+                <!-- <a href="" class="btn border">
+                    <i class="fas fa-heart text-primary"></i>
+                    <span class="badge">0</span>
+                </a> -->
+                <a href="cart.html" class="btn border">
+                    <i class="fas fa-shopping-cart text-primary"></i>
+                    <span class="badge">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid mb-5">
+        <div class="row border-top px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a class="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;">
+                    <h6 class="m-0">Shop by Categories</h6>
+                    <i class="fa fa-angle-down text-dark"></i>
+                </a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 1;">
+                    <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
+                        <div class="nav-item dropdown">
+                            <!-- <a href="#" class="nav-link" data-toggle="dropdown">Mobiles<i class="fa fa-angle-down float-right mt-1"></i></a>
+                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+                                <a href="" class="dropdown-item">Samsung</a>
+                                <a href="" class="dropdown-item">Realme</a>
+                                <a href="" class="dropdown-item">OnePlus</a>
+                                <a href="" class="dropdown-item">Mi</a>
+                                <a href="" class="dropdown-item">Huawie</a>
+                                <a href="" class="dropdown-item">Apple</a>
+                                <a href="" class="dropdown-item">Motorola</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown">laptop<i class="fa fa-angle-down float-right mt-1"></i></a>
+                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+                                <a href="" class="dropdown-item">Samsung</a>
+                                <a href="" class="dropdown-item">Dell</a>
+                                <a href="" class="dropdown-item">Lenovo</a>
+                                <a href="" class="dropdown-item">Mi</a>
+                                <a href="" class="dropdown-item">Asus</a>
+                                <a href="" class="dropdown-item">Apple</a>
+                                <a href="" class="dropdown-item">Hp</a>
+                            </div> -->
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-toggle="dropdown">Air Conditioner<i class="fa fa-angle-down float-right mt-1"></i></a>
+                                <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+                                    <a href="" class="dropdown-item">Samsung</a>
+                                    <a href="" class="dropdown-item">Panasonic</a>
+                                    <a href="" class="dropdown-item">LG</a>
+                                    <a href="" class="dropdown-item">Voltas</a>
+                                    <a href="" class="dropdown-item">Godrej</a>
+                                    <a href="" class="dropdown-item">Daikin</a>
+                                    <a href="" class="dropdown-item">Blue Star</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                    <!-- <div class="col">
+                        <img src="https://i.ibb.co/FKCwb8h/logo-1.png" alt="">
+                     </div>      -->
+                    <!-- <a href="" class="text-decoration-none d-block d-lg-none">
+                        <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
+                    </a> -->
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
+                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                                    <a href="checkout.html" class="dropdown-item">Checkout</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0">
+                            <a href="" class="nav-item nav-link">Login</a>
+                            <a href="" class="nav-item nav-link">Register</a>
+                        </div>
+                    </div>
+                </nav>
+                <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 410px;">
+                            <img class="img-fluid" src="https://5.imimg.com/data5/GLADMIN/Default/2021/10/UW/WB/PX/83782698/daikin-split-ac-500x500.jpeg" alt="Image">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-2" style="max-width: 700px;">
+                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">15% Off Your First Order</h4>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Monsoon Offer</h3>
+                                    <a href="" class="btn btn-light py-2 px-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 410px;">
+                            <img class="img-fluid" src="https://img.freepik.com/premium-vector/air-conditioning-blowing-cold-air-room-repair-serviice-live-font_136277-989.jpg?w=360" alt="Image">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-2" style="max-width: 700px;">
+                                    <h4 class="text-light text-uppercase font-weight-medium mb-3">15% Off Your First Order</h4>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
+                                    <a href="" class="btn btn-light py-2 px-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                        <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                            <span class="carousel-control-prev-icon mb-n2"></span>
+                        </div>
+                    </a>
+                    <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                        <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                            <span class="carousel-control-next-icon mb-n2"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Featured Start -->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                    <a href="contact.html">
+                    <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End -->
+
+
+    <!-- Categories Start -->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/51z-jTCpF6L._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0"; style="position: relative;">Godrej</h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="LG.html" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/51JFb7FctDL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">Lg</h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/416yJReZzwL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">Voltas</h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/61yRNVX2+oL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">Blue star</h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/61ZzcguzB1L._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">Panasonic</h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                    <p class="text-right">15 Products</p>
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="https://m.media-amazon.com/images/I/51dPET0mdFL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </a>
+                    <h5 class="font-weight-semi-bold m-0">Samsung</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+    <!-- Offer Start -->
+    <div class="container-fluid offer pt-5">
+        <div class="row px-xl-5">
+            <div class="col-md-6 pb-4">
+                <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGq3mIWkgGPjDXcgzg7Ljd4hbTspM98xk1w&usqp=CAU" alt="">
+                    <div class="position-relative" style="z-index: 1;">
+                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                        <h1 class="mb-4 font-weight-semi-bold">Monsoon Collection</h1>
+                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pb-4">
+                <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToqeY3GVKROUlTMKOZeGH8rjstPpFoxwjsDg&usqp=CAU" alt="">
+                    <div class="position-relative" style="z-index: 1;">
+                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                        <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
+                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Products Start
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Trandy Products</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/51dPET0mdFL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Products End -->
+
+
+    <!-- Subscribe Start -->
+    <div class="container-fluid bg-secondary my-5">
+        <div class="row justify-content-md-center py-5 px-xl-5">
+            <div class="col-md-6 col-12 py-5">
+                <div class="text-center mb-2 pb-2">
+                    <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
+                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
+                </div>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-4" placeholder="Email Goes Here">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Just Arrived</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/51dPET0mdFL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Samsung</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/samsung-convertible-5-in-1-cooling-2023-model-1-5-ton-3-star-split-inverter-ac-white/p/itm44e816c7213fc?pid=ACNGHRDQZUD2CPTZ&lid=LSTACNGHRDQZUD2CPTZI1ZDMQ&marketplace=FLIPKART&q=samsung+5in1+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=ff546626-f718-4354-a848-88064779b533.ACNGHRDQZUD2CPTZ.SEARCH&ppt=sp&ppn=sp&ssid=nnrs1kgmeo0000001695019077698&qH=14d35e812e4f0397" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/samsung-convertible-5-in-1-cooling-2023-model-1-5-ton-3-star-split-inverter-ac-white/p/itm44e816c7213fc?pid=ACNGHRDQZUD2CPTZ&lid=LSTACNGHRDQZUD2CPTZI1ZDMQ&marketplace=FLIPKART&q=samsung+5in1+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=ff546626-f718-4354-a848-88064779b533.ACNGHRDQZUD2CPTZ.SEARCH&ppt=sp&ppn=sp&ssid=nnrs1kgmeo0000001695019077698&qH=14d35e812e4f0397" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/51JFb7FctDL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">LG</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/lg-ai-convertible-6-in-1-cooling-2023-model-1-5-ton-3-star-split-dual-inverter-2-way-swing-hd-filter-anti-virus-protection-ac-white/p/itm832098a941398?pid=ACNGHBX44THKQGZQ&lid=LSTACNGHBX44THKQGZQSXO8S3&marketplace=FLIPKART&q=lg+6in1+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=75b0826b-e46b-4baf-bd22-adef13415f34.ACNGHBX44THKQGZQ.SEARCH&ppt=sp&ppn=sp&ssid=1ctugf6eww0000001695019186458&qH=f9bf2521ddd468b9" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/lg-ai-convertible-6-in-1-cooling-2023-model-1-5-ton-3-star-split-dual-inverter-2-way-swing-hd-filter-anti-virus-protection-ac-white/p/itm832098a941398?pid=ACNGHBX44THKQGZQ&lid=LSTACNGHBX44THKQGZQSXO8S3&marketplace=FLIPKART&q=lg+6in1+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=75b0826b-e46b-4baf-bd22-adef13415f34.ACNGHBX44THKQGZQ.SEARCH&ppt=sp&ppn=sp&ssid=1ctugf6eww0000001695019186458&qH=f9bf2521ddd468b9" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/61ZzcguzB1L._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Panasonic</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/panasonic-convertible-7-in-1-additional-ai-mode-cooling-2023-model-1-5-ton-3-star-split-inverter-2-way-swing-pm-0-1-air-purification-filter-ac-wi-fi-connect-white/p/itm690062d929416?pid=ACNGHHH24J62PGNV&lid=LSTACNGHHH24J62PGNVODJGXG&marketplace=FLIPKART&q=panasonic+smart+ac&store=j9e%2Fabm%2Fc54&spotlightTagId=FkPickId_j9e%2Fabm%2Fc54&srno=s_1_1&otracker=AS_Query_HistoryAutoSuggest_3_0&otracker1=AS_Query_HistoryAutoSuggest_3_0&fm=Search&iid=b6552fb3-984c-4cce-aec4-77654ddfeeed.ACNGHHH24J62PGNV.SEARCH&ppt=sp&ppn=sp&ssid=1wx1slo0jk0000001695019255449&qH=5392a4f95763531c" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/panasonic-convertible-7-in-1-additional-ai-mode-cooling-2023-model-1-5-ton-3-star-split-inverter-2-way-swing-pm-0-1-air-purification-filter-ac-wi-fi-connect-white/p/itm690062d929416?pid=ACNGHHH24J62PGNV&lid=LSTACNGHHH24J62PGNVODJGXG&marketplace=FLIPKART&q=panasonic+smart+ac&store=j9e%2Fabm%2Fc54&spotlightTagId=FkPickId_j9e%2Fabm%2Fc54&srno=s_1_1&otracker=AS_Query_HistoryAutoSuggest_3_0&otracker1=AS_Query_HistoryAutoSuggest_3_0&fm=Search&iid=b6552fb3-984c-4cce-aec4-77654ddfeeed.ACNGHHH24J62PGNV.SEARCH&ppt=sp&ppn=sp&ssid=1wx1slo0jk0000001695019255449&qH=5392a4f95763531c" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/61yRNVX2+oL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Blue star</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/blue-star-convertible-5-1-cooling-2023-model-1-5-ton-split-inverter-multi-sensors-stabalizer-free-operation-self-diagnosis-dust-filter-ac-white/p/itm466ad0792a882?pid=ACNGMA7HFKHFHU59&lid=LSTACNGMA7HFKHFHU59N6MLML&marketplace=FLIPKART&q=bluestar+fast+cool+ac&store=j9e%2Fabm%2Fc54&spotlightTagId=FkPickId_j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=35a17a39-cecb-4591-9bbc-00e431b261ed.ACNGMA7HFKHFHU59.SEARCH&ppt=sp&ppn=sp&ssid=bq02mo28280000001695019314106&qH=d287e2505b3d9493" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/blue-star-convertible-5-1-cooling-2023-model-1-5-ton-split-inverter-multi-sensors-stabalizer-free-operation-self-diagnosis-dust-filter-ac-white/p/itm466ad0792a882?pid=ACNGMA7HFKHFHU59&lid=LSTACNGMA7HFKHFHU59N6MLML&marketplace=FLIPKART&q=bluestar+fast+cool+ac&store=j9e%2Fabm%2Fc54&spotlightTagId=FkPickId_j9e%2Fabm%2Fc54&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=35a17a39-cecb-4591-9bbc-00e431b261ed.ACNGMA7HFKHFHU59.SEARCH&ppt=sp&ppn=sp&ssid=bq02mo28280000001695019314106&qH=d287e2505b3d9493" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/51z-jTCpF6L._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">LG</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/lg-ai-convertible-6-in-1-cooling-2023-model-1-5-ton-5-star-split-dual-inverter-4-way-swing-hd-filter-anti-virus-protection-ac-silver-deco/p/itma02603660f1f1?pid=ACNGHBX4GHTPKYYG&lid=LSTACNGHBX4GHTPKYYGY8WHCO&marketplace=FLIPKART&q=lg+ac&store=j9e%2Fabm%2Fc54&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_2_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_2_na_na_ps&fm=Search&iid=1098d826-94ba-4090-b328-c7cf2cc6f5e5.ACNGHBX4GHTPKYYG.SEARCH&ppt=pp&ppn=pp&ssid=ocami2rbb40000001695028683752&qH=71eefd08071edb05" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/lg-ai-convertible-6-in-1-cooling-2023-model-1-5-ton-5-star-split-dual-inverter-4-way-swing-hd-filter-anti-virus-protection-ac-silver-deco/p/itma02603660f1f1?pid=ACNGHBX4GHTPKYYG&lid=LSTACNGHBX4GHTPKYYGY8WHCO&marketplace=FLIPKART&q=lg+ac&store=j9e%2Fabm%2Fc54&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_2_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_2_na_na_ps&fm=Search&iid=1098d826-94ba-4090-b328-c7cf2cc6f5e5.ACNGHBX4GHTPKYYG.SEARCH&ppt=pp&ppn=pp&ssid=ocami2rbb40000001695028683752&qH=71eefd08071edb05" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/416yJReZzwL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Godrej</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/godrej-5-in-1-convertible-cooling-2023-model-1-5-ton-4-star-split-inverter-way-swing-tri-filtration-system-ac-white/p/itm92d4a7cacbb52?pid=ACNGMXHAWXBHVFJE&lid=LSTACNGMXHAWXBHVFJEOHRWAM&marketplace=FLIPKART&q=godrej+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_3_na_na_ps&fm=Search&iid=0d249e1d-ab36-4513-b644-63040cad8d69.ACNGMXHAWXBHVFJE.SEARCH&ppt=pp&ppn=pp&ssid=nvmlr0kykg0000001695028621970&qH=323ca3bf1929d78a" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/godrej-5-in-1-convertible-cooling-2023-model-1-5-ton-4-star-split-inverter-way-swing-tri-filtration-system-ac-white/p/itm92d4a7cacbb52?pid=ACNGMXHAWXBHVFJE&lid=LSTACNGMXHAWXBHVFJEOHRWAM&marketplace=FLIPKART&q=godrej+ac&store=j9e%2Fabm%2Fc54&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_3_na_na_ps&fm=Search&iid=0d249e1d-ab36-4513-b644-63040cad8d69.ACNGMXHAWXBHVFJE.SEARCH&ppt=pp&ppn=pp&ssid=nvmlr0kykg0000001695028621970&qH=323ca3bf1929d78a" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/416yJReZzwL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Voltas</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/voltas-1-5-ton-split-inverter-expandable-ac-white/p/itm4a55ccfce701d?pid=ACNGP8TMHGYUSGWG&lid=LSTACNGP8TMHGYUSGWGRQCM9G&marketplace=FLIPKART&q=voltas+ac+1.5&store=j9e%2Fabm%2Fc54&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=Search&iid=a7998766-11f4-4713-9415-dcae842347bc.ACNGP8TMHGYUSGWG.SEARCH&ppt=pp&ppn=pp&ssid=o816cgyyxc0000001695028575312&qH=d7832b31315e445e" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/voltas-1-5-ton-split-inverter-expandable-ac-white/p/itm4a55ccfce701d?pid=ACNGP8TMHGYUSGWG&lid=LSTACNGP8TMHGYUSGWGRQCM9G&marketplace=FLIPKART&q=voltas+ac+1.5&store=j9e%2Fabm%2Fc54&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=Search&iid=a7998766-11f4-4713-9415-dcae842347bc.ACNGP8TMHGYUSGWG.SEARCH&ppt=pp&ppn=pp&ssid=o816cgyyxc0000001695028575312&qH=d7832b31315e445e" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" src="https://m.media-amazon.com/images/I/61yRNVX2+oL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">Daikin</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="https://www.flipkart.com/daikin-2023-model-1-5-ton-3-star-split-inverter-ac-pm-2-5-filter-white/p/itm257875435ce2d?pid=ACNGFSYTSYRUQUSZ&lid=LSTACNGFSYTSYRUQUSZSN5JY4&marketplace=FLIPKART&q=daikin+ac&store=j9e%2Fabm%2Fc54&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_ps&fm=Search&iid=399d90ce-d84d-49f0-bf26-fc321f792604.ACNGFSYTSYRUQUSZ.SEARCH&ppt=sp&ppn=sp&ssid=gtimacr48w0000001695028486604&qH=d9c0ddbb8fc34bb7" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="https://www.flipkart.com/daikin-2023-model-1-5-ton-3-star-split-inverter-ac-pm-2-5-filter-white/p/itm257875435ce2d?pid=ACNGFSYTSYRUQUSZ&lid=LSTACNGFSYTSYRUQUSZSN5JY4&marketplace=FLIPKART&q=daikin+ac&store=j9e%2Fabm%2Fc54&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_ps&fm=Search&iid=399d90ce-d84d-49f0-bf26-fc321f792604.ACNGFSYTSYRUQUSZ.SEARCH&ppt=sp&ppn=sp&ssid=gtimacr48w0000001695028486604&qH=d9c0ddbb8fc34bb7" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5">
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="owl-carousel vendor-carousel">
+                    <div class="vendor-item border p-4">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoaNuwfvNC0pPPKLuwbHX2cR0T2_nAhSWHkA&usqp=CAU" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbTVAc0TNRWwHGW_W_-Joy_F3mzpSMDg9EA&usqp=CAU" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjrs-Boz1xUkz51AN2dWK5WllDqJvXLXm2iQ&usqp=CAU" alt="">
+                    </div>
+                    <div class="vendor-item border p-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-v-09BbkSdIDQpxRlkIgREsY2RmPa5qMqPjtLFNMW2bLwxOQRGpwasWUzZZdWSJlcDI&usqp=CAU" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
+        <div class="row px-xl-5 pt-5">
+            <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                <!-- <div class="col">
+                    <img src="https://i.ibb.co/FKCwb8h/logo-1.png" alt="">
+                 </div> -->
+                <a href="" class="text-decoration-none">
+                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white ">AC</span>marketplace</h1>
+                </a>
+                <p>"Explore a diverse selection of cutting-edge air conditioning units and cooling solutions, tailored to meet your unique comfort needs, available for purchase on our dedicated website."
+
+
+
+
+                </p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>xyz</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@acmarketplace.in</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>xyz</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+                            <a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+                            <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+                            <a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+                            <a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+                            <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+                            <a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div> -->
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Best offer info</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
+                                    required="required" />
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border-top border-light mx-xl-5 py-4">
+            <div class="col-md-6 px-xl-0">
+                <p class="mb-md-0 text-center text-md-left text-dark">
+                    &copy; <a class="text-dark font-weight-semi-bold" href="#">ACmarketplace</a>.
+                    <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com"></a><br>
+                    Distributed By <a href="https://themewagon.com" target="_blank">MATTRIX</a>
+                </p>
+            </div>
+            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <img class="img-fluid" src="img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
